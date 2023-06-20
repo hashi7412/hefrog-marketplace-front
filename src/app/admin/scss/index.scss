@@ -1,0 +1,70 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* === Plugin styles === */
+
+
+// @import "~slick-carousel/slick/slick.css";
+// @import "~slick-carousel/slick/slick-theme.css";
+
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+@import "./global/variables";
+@import "~compass-mixins/lib/compass";
+@import "~compass-mixins/lib/animate";
+@import "~bootstrap/scss/bootstrap";
+@import "./global/fonts";
+@import "./global/functions";
+
+/* === Icon fonts === */
+@import "~@mdi/font/scss/materialdesignicons";
+
+
+/* === Template mixins === */
+@import "./global/mixins/animation";
+@import "./global/mixins/badges";
+@import "./global/mixins/buttons";
+@import "./global/mixins/misc";
+@import "./global/mixins/color-functions";
+@import "./global/mixins/cards";
+@import "./global/mixins/blockqoute";
+
+
+/* === Core Styles === */
+@import "./global/typography";
+@import "./global/reset";
+@import "./global/responsive";
+@import "./global/misc";
+@import "./global/utilities";
+@import "./global/demo";
+@import "./global/spinner";
+@import "./global/dashboard";
+
+/* === Components === */
+
+@import "./global/components/checkbox-radio";
+@import "./global/components/forms";
+@import "./global/components/icons";
+@import "./global/components/tables";
+@import "./global/components/buttons";
+@import "./global/components/breadcrumbs";
+@import "./global/components/badges";
+@import "./global/components/cards";
+@import "./global/components/preview";
+@import "./global/components/lists";
+@import "./global/components/todo-list";
+@import "./global/components/dropdowns";
+@import "./global/components/loaders/loaders";
+
+// @import "./global/components/landing-screens/auth";
+
+/* === Plugin Overrides === */
+@import "./global/components/plugin-overrides/slick-carousel";
+@import "./global/components/plugin-overrides/jquery-jvectormap";
+
+/* === Layout === */
+@import "./global/navbar";
+@import "./global/sidebar";
+@import "./global/footer";
+@import "./global/layout";
